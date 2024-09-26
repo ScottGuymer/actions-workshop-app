@@ -41,7 +41,7 @@ jobs:
         uses: ./.github/actions/custom-js-action
         with:
           name: 'GitHub Actions Workshop'
-     - name: Run custom JavaScript action 2
+      - name: Run custom JavaScript action 2
         uses: ./.github/actions/custom-js-action
         with:
           name: 'Scott'
