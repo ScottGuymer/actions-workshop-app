@@ -22,3 +22,13 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+
+  reusable-workflow:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      some-input: some-value
+
+  reusable-workflow-2:
+    uses: ./.github/workflows/reusable.yml
+    with:
+      some-input: some-value-2
